@@ -41,6 +41,7 @@ export const productsApi = {
     page?: number;
     category?: number;
     search?: string;
+    status?: string;
   }): Promise<Product[]> => {
     console.log("📦 Fetching products...");
     const response = await api.get<Product[]>("/products", { params });
