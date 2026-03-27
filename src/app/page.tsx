@@ -115,7 +115,7 @@ export default function Home() {
             Free Shipping
           </h2>
           <p className="text-gray-400 max-w-lg mx-auto mb-8">
-            On orders over $100. Fast and reliable delivery worldwide.
+            On orders over ₹5000. Fast and reliable delivery worldwide.
           </p>
           <Link
             href="/shop"
